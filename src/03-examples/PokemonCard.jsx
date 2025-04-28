@@ -10,8 +10,6 @@ export const PokemonCard = ({id, name, sprites = []}) => {
         const { height, width } = h2ref.current.getBoundingClientRect();
         setBoxSize({height,width});
 
-        console.log([height, width]);
-
 
     }, [name]);
 
